@@ -14,7 +14,6 @@ def ftp(update, context):
 <b>Libres de consumo:</b>
 <b>1. </b><a href="http://ftp.udg.co.cu/">FTP Granma</a>
 <b>2. </b><a href="http://ftp.uo.edu.cu/">FTP Santiago</a>   
-<a href=""></a>
 
 <b>Consumo nacional:</b>
 <b>1. </b><a href="https://soft.uclv.edu.cu/">Software UCLV</a>
