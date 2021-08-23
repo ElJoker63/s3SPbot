@@ -10,7 +10,9 @@ def help(update, context):
     update.message.reply_text("")
 
 def ftp(update, context):
-    update.message.reply_text(
+    msg = update.message.text
+    if str(msg).__contains__("ftp"):
+        update.message.reply_text(
         '''
 <b>Libres de consumo:</b>
 <b>1. </b><a href="http://ftp.udg.co.cu/">FTP Granma</a>
