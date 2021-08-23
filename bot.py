@@ -4,10 +4,7 @@ import os
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 def start(update, context):
-    update.message.reply_text("El bot esta funcionando!") 
-
-def help(update, context):
-    update.message.reply_text("")
+    update.message.reply_text("El bot esta funcionando!")
 
 def ftp(update, context):
     msg = update.message.text
